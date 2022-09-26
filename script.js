@@ -203,7 +203,12 @@ function OpenCloseButton() {
     if (clickCounter === 1) {
 
       full.style.left = '0%';
-      button.style.display='none';
+      button.style.display = 'none';
+  
+
+
+
+
       menu.innerHTML = `<i id="clicked" class="ri-close-circle-fill"></i>`;
 
       clickCounter = 0;
@@ -216,7 +221,7 @@ function OpenCloseButton() {
       <div class="circle"></div>
       <div class="circle"></div>
   </div>`;
-  button.style.display='initial';
+      button.style.display = 'initial';
 
       clickCounter = 1;
     }
@@ -225,15 +230,15 @@ function OpenCloseButton() {
 
 }
 
-function heroTextAnimation(){
-    
-    gsap.from(".row", {
-      opacity: 0,
-      y: '40',
-      autoAlpha: 1,
-      stagger: 0.1,
+function heroTextAnimation() {
 
-    })
+  gsap.from(".row", {
+    opacity: 0,
+    y: '40',
+    autoAlpha: 1,
+    stagger: 0.1,
+
+  })
 }
 
 function TextAnimation() {
@@ -262,7 +267,7 @@ function TextAnimation() {
   gsap.to('#page3-intro span', {
 
     scrollTrigger: {
-      trigger:'#page3-intro span',
+      trigger: '#page3-intro span',
       scroller: "#main",
       start: "top 80%",
       end: "top 60%",

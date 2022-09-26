@@ -1059,16 +1059,18 @@ body {
 
     }
 
-    #menu-page{
-        height: 200vh;
+    #menu-page {
+        position: absolute;
+        display: initial;
     }
 
-    #menu-right{
+    #menu-left {
         display: none;
     }
 
-    .container{
+    .container {
         flex-direction: column;
+        z-index: 99;
     }
 
 
