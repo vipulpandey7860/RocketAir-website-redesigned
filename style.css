@@ -1045,6 +1045,7 @@ body {
 
     #nav {
         padding: 6vw;
+        z-index: 999999;
     }
 
     #hero {
@@ -1054,6 +1055,7 @@ body {
 
 
     #nav2 {
+        z-index: 99999;
         display: flex;
         align-items: center;
 
@@ -1062,6 +1064,8 @@ body {
     #menu-page {
         position: absolute;
         display: initial;
+        background-color: #000;
+        z-index: 9999;
     }
 
     #menu-left {
@@ -1262,15 +1266,11 @@ body {
         font-size: 10vw;
     }
 
-    /* #page9 .row:nth-child(2) {
-        margin-top: -10%;
-        text-align: end;
+    #last{
+        position: relative;
+        top: 25vh;
     }
-
-    #page9 .row:nth-child(1) {
-        margin-top: -75%;
-
-    } */
+   
 
     #footer {
         flex-direction: column;
