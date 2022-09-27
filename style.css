@@ -193,7 +193,7 @@ body {
     position: relative;
     height: 90%;
     width: 100%;
-    background-image: url("assets/olive.jpg");
+    background-image: url("Assets/olive.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -203,7 +203,7 @@ body {
     position: relative;
     height: 90%;
     width: 100%;
-    background-image: url("assets/focus.jpg");
+    background-image: url("Assets/focus.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -213,7 +213,7 @@ body {
     position: relative;
     height: 90%;
     width: 100%;
-    background-image: url("assets/stryx.jpg");
+    background-image: url("Assets/stryx.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -850,7 +850,7 @@ body {
 }
 
 #photu3 {
-    background-image: url("assets/stryx.jpg");
+    background-image: url("Assets/stryx.jpg");
 
 }
 
