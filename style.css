@@ -14,6 +14,10 @@
     display: none;
 }
 
+*:focus {
+    outline: none;
+}
+
 
 html,
 body {
@@ -963,7 +967,7 @@ body {
 #fleft input {
     width: 100%;
     background-color: transparent;
-    color: #4444;
+    color: white;
     border: none;
     font-size: 1.7vw;
     padding-bottom: .6vw;
