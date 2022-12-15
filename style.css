@@ -156,6 +156,7 @@ body {
     display: flex;
     height: 90vh;
     width: 100%;
+    overflow-y: scroll;
 }
 
 #menu-left {
@@ -164,62 +165,54 @@ body {
     flex-direction: column;
     align-items: center;
     width: 40%;
-    height: max-content;
     color: white;
     border-right: 1px solid #333;
     border-top: 1px solid #333;
     z-index: 9;
-    overflow-y: auto;
+    overflow-y: scroll;
+    gap: 5vh;
+    padding-bottom: 10vh;
 }
 
 
 .image-content {
     position: relative;
-    height: 90vh;
-    width: 100%;
+    width: 70%;
     border: 1px solid black;
-    padding: 3vh 5vw;
+    margin: 5vh 0;
 
 }
 
-.image-content:nth-child(3) {
-    margin-bottom: 10vh;
-}
 
 .image-content>span {
     position: absolute;
     font-size: 2vw;
-    left: 5%;
+    left: 1%;
     margin-top: 2vh;
 }
 
-#image-div1 {
+.img-div {
     position: relative;
-    height: 90%;
+    height: 75vh;
     width: 100%;
-    background-image: url("Assets/olive.jpg");
     background-position: center;
     background-size: cover;
+}
+
+#image-div1 {
+    background-image: url("Assets/olive.jpg");
 }
 
 
 #image-div2 {
-    position: relative;
-    height: 90%;
-    width: 100%;
     background-image: url("Assets/focus.jpg");
-    background-position: center;
-    background-size: cover;
+
 }
 
 
 #image-div3 {
-    position: relative;
-    height: 90%;
-    width: 100%;
     background-image: url("Assets/stryx.jpg");
-    background-position: center;
-    background-size: cover;
+
 }
 
 
@@ -227,6 +220,7 @@ body {
     width: 60%;
     z-index: 9;
     overflow-y: auto;
+    height: 100%;
 
 }
 
@@ -1270,11 +1264,11 @@ body {
         font-size: 10vw;
     }
 
-    #last{
+    #last {
         position: relative;
         top: 25vh;
     }
-   
+
 
     #footer {
         flex-direction: column;
