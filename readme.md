@@ -36,7 +36,7 @@ Include links to any relevant documentation or resources for each technology.
 
 ## Project Status
 
-This project was created as a demonstration of HTML, CSS, and JavaScript skills, and is therefore not a live implementation of the GetTala.com website. It is intended solely as a portfolio piece and to showcase front-end development abilities.
+This project was created as a demonstration of HTML, CSS, and JavaScript skills, and is therefore not a live implementation of the rocketAir.com website. It is intended solely as a portfolio piece and to showcase front-end development abilities.
 
 ## Installation
 
